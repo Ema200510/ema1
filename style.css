@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+body{
+    font-family: "Barlow",sans-serif;
+    line-height: 1.7;
+    color: #516171;
+    width: 100%;
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+/*  Navber Section | S  */
+.Nav-section{
+    background-color: rgb(94, 124, 241);
+    height: 30px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #cad8e4;
+}
+.navbar-nav li a:hover{
+	background: #0b3245;
+    border-radius: 5%;
+}
+
+/*  Navber Section | E  */
+
+
+/*  Hero Section | S  */
+.hero {
+    background: url('./img/background.jpeg') center center/cover no-repeat;
+    height: 100vh;
+}
+/*  Hero Section | E  */
+/* About Section | S  */
+.about {
+    background-color: #816161;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #f9f8f8;
+}
+
+
+
+.about p {
+    color: #f9f6f6;
+}
+
+.about img {
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* About Section | E */
+/* Product Section | S */
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+/* Product Section | E  */
+/* Services Section | S */
+.services {
+    background-color: #e6ecf3;
+    transform: translateY(-5px);
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #333;
+}
+.services img {
+    width: 250px;
+    height: 200px;
+}
+
+.services .card {
+    border: none;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.services .card:hover {
+    transform: translateY(-5px);
+}
+
+.services i {
+    font-size: 3rem;
+    color: #007bff;
+}
+/*Services Section | E */
+/* Contact Section | S */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #739b34;
+    color: #333;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(105, 105, 249);
+}
+
+.contact-container p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: rgb(105, 105, 249);
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: rgb(105, 105, 249);
+}
+/* footer Section | E */
+/* Contact Section | S */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+/* footer Section | E */
